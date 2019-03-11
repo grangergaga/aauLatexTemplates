@@ -1,0 +1,13 @@
+% mainfile: ../master.tex
+\chapter*{Abstract\markboth{Abstract}{Abstract}}\label{ch:Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Understanding what's going on during biomass thermal chemical conversion process is one of the technological hurdles in biomass thermal treatment. In this project, a reliable one-dimensional biomass pyrolysis / gasification / combustion model with be developed and programmed. The model is developed by using finite volume method in CFD. A sequence of partial differential equations are discrete by central differential method, the matrix was solved by tridiagonal matrix algorithm (TDMA). The full code is written in C++ and operated in codeblocks at windows 10 environment. Many results are expected from this model. For example, for a spherical single biomass pellet, the temperature distribution along the radius, the gas precipitation along the time, the pressure and velocity distribution at local grid, and so on. 
+
+The project is divide intro two parts. The first part is to develop a reliable one-dimensional single biomass pellet pyrolysis / gasification / combustion model. The model was tested in a pure pyrolysis condition. After the modelling results match the experiments, the model was further improved into a combustion model. The combustion model is more complicated because more reactions are taken into consider,especially the oxidation. That means the model has one more stage out of evaporation and devolitilization. For both pyrolysis and combustion case, the experimental data from weight loss and temperature distribution was used for model validation. Since it is quite hard to measure the gas precipitation within a single spherical biomass pellet, the second part of this project is designed. In the second part of this project, a packed-bed gasifier is used to validate the model. The laborary is location in TU Graz, the gasificationis performed with air. Measurements cover the mass loss of the bed, the temperatures in different bed locations, and the release of gas species ($O_2$, CO, $CO_2$, $NH_3$, $HCN$, $NO_x$, $SO_2$, hydrocarbons by means of FTIR and FID). These data that measured continuously is compared with the data generate from this model. 
+
+A parametric study is also applied in this model. The kinetic data, the dimensionless constant, the diffusion coefficient was changed to see the effect on the simulation results.
+
+
+\chapter*{Resumé\markboth{Resumé}{Resumé}}\label{ch:Resume}
+\addcontentsline{toc}{chapter}{Resumé}
+Danish Abstract
